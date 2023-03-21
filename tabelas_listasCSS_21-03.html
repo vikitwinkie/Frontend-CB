@@ -1,0 +1,104 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabelas e Listas Css 21/03</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 20px 20px 50px 50px;
+                background-color: rgba(206, 200, 204, 0.737);
+                margin: auto;
+            }
+
+            h1{
+                color:#F059A4;
+                font-size: 250%;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            h2{
+                color:#F05956;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            h3{
+                color:#aa9e9d;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            h4{
+                color:#8443C9;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            li{
+                color:#517DE0;
+            }
+    
+            table {
+                width: 400px;
+                border-collapse: collapse;
+            }
+    
+            tr.linha{
+            background-color: gray;
+            }
+    
+            td {
+                border: 1px solid black;
+                padding: 8px;
+            }
+    
+            td.dado{
+                background-color: yellow;
+            }
+        </style>
+    </head>
+        <body>
+          
+                 <h1> Listas e Tabelas com CSS interno </h1>
+
+
+                    <h2> Lista Não-ordenada </h2>
+                        <ul>
+                            <li> HTTP </li>
+                            <li> FTP </li>
+                            <li> HTTPs </li>
+                            <li> TCP/IP </li>
+                        </ul>
+
+                    <h3> Lista Ordenada </h3>
+                        <ol>    
+                            <li> HTTP </li>
+                            <li> FTP </li>
+                            <li> HTTPs </li>
+                            <li> TCP/IP </li>
+                        </ol>
+
+                <h4> Tabela </h4>
+                    <table border="1">
+                        <tr> 
+                            <td>A1</td>
+                            <td>B1</td>
+                            <td>C1</td>
+                        </tr>
+
+                        <tr class="linha">
+                            <td>A2</td>
+                            <td>B2</td>
+                            <td>C2</td>
+                        </tr>
+
+                        <tr>
+                            <td>A3</td>
+                            <td>B3</td>
+                            <td>C3</td>
+                        </tr>
+                     </table>          
+        </body>
+    </html>
