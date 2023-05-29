@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'kenao';
+    src: url('Kenao.otf') format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo-principal{
+    transition: absolute;
+    top: 13%;
+    left: 30%;
+    transform: translate( -10%, 50%);
+    font-size: 35px;
+    font-family: kenao;
+}
+
+header {
+    background-image: linear-gradient(to top, white, black);
+    padding: 20px;
+    gradi
+}
+
+#logo {
+    border-radius: 10px;
+}
+
+
